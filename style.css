@@ -14,17 +14,7 @@ p{
   font-family: Open-Sans, sans-serif;
   background-color: rgb (200,200,200);
   text-align: center;
-}
-
-ul{
-  display: flex;
-  justify-content: space-between;
-  margin-left: 400px;
-  margin-right: 400px;
-}
-
-li {
-  list-style: none;
+  line-height: 1.5em;
 }
 
 
@@ -34,7 +24,15 @@ li {
   font-size: 24px;
 }
 
+.playlist{
+  text-align: center;
+  font-family: Open-Sans;
+  font-size: 24px;
+}
+
+
 #presentation{
+  padding-top: 100px;
   height: 600px;
 }
 
@@ -44,6 +42,12 @@ li {
 
 
 #album_selection{
+  display: flex;
+  justify-content: space-around;
+  height: 500px;
+}
+
+#spotify_playlists{
   display: flex;
   justify-content: space-around;
   height: 500px;
@@ -66,5 +70,16 @@ li {
 
 #center_profile_pic{
   text-align: center;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+li {
+  list-style: none;
 }
 /* Here goes your CSS */
