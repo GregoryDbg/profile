@@ -1,0 +1,70 @@
+body{
+  background-color: rgb(207, 224, 252);
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(10, 10, 10);
+  text-align: center;
+}
+
+p{
+  width: 620px;
+  margin: auto;
+  font-family: Open-Sans, sans-serif;
+  background-color: rgb (200,200,200);
+  text-align: center;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+li {
+  list-style: none;
+}
+
+
+.album{
+  text-align: center;
+  font-family: Open-Sans;
+  font-size: 24px;
+}
+
+#presentation{
+  height: 600px;
+}
+
+#musique{
+  height: 500px;
+}
+
+
+#album_selection{
+  display: flex;
+  justify-content: space-around;
+  height: 500px;
+}
+
+.img_album{
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#profile_pic{
+  height: auto;
+  width: auto;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+}
+
+#center_profile_pic{
+  text-align: center;
+}
+/* Here goes your CSS */
